@@ -10838,7 +10838,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .box:hover {
   background: radial-gradient(
-    circle 4vmax at var(--cursorX) var(--cursorY),
+    circle 6vmax at var(--cursorX) var(--cursorY),
     rgba(255, 255, 255, 0.02) 90%,
     rgba(255, 255, 255, 1) 100%
   )
