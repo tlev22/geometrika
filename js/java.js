@@ -1,4 +1,4 @@
-var mouseX = 0, mouseY = 0, limitX = 500, limitY = 500;
+var mouseX = 0, mouseY = 0, limitX = 500, limitY = 800;
 $(window).mousemove(function(e){
   var offset = $('.containeri').offset();
    mouseX = Math.min(e.pageX - offset.left, limitX);

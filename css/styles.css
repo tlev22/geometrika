@@ -11011,3 +11011,95 @@ section#contact form#contactForm :-ms-input-placeholder {
     height: 1800px;
   }
 }
+
+
+
+@media(min-width: 1550px) {
+  header.masthead {
+    padding-top: 30rem;
+    padding-bottom: 12.5rem;
+  }
+  .container {
+    max-width: 1300px;
+  }
+  #services {
+    height: 100vh;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .centerdiv {
+    height: 70vh;
+  }
+  .usluge-img-foto {
+    top: 45%;
+    height: 250px;
+    width: 400px;
+  }
+  #follower {
+    width: 6rem;
+    height: 4rem;
+  }
+  .over-img-box {
+    top: 25%;
+  }
+  .box {
+    height: 80%;
+  }
+  #about {
+    height: 100vh;
+  }
+  #contact {
+    height: 87vh;
+  }
+  .modal-content {
+    top: 5vh;
+  }
+}
+
+@media(min-width: 1600px) {
+  header.masthead {
+    padding-top: 40rem;
+    padding-bottom: 12.5rem;
+  }
+  .container {
+    max-width: 1500px;
+  }
+  #services {
+    height: 100vh;
+  }
+  .container-fluid {
+    width: 100%;
+  }
+  .centerdiv {
+    height: 70vh;
+  }
+  .usluge-img-foto {
+    top: 50%;
+    height: 300px;
+    width: 500px;
+  }
+  #follower {
+    width: 8rem;
+    height: 5rem;
+  }
+  .over-img-box {
+    top: 25%;
+  }
+  .box {
+    height: 90%;
+  }
+  #about {
+    height: 100vh;
+  }
+  #contact > .container {
+    position: relative;
+    top: 10vh;
+  }
+  #contact {
+    height: 90vh;
+  }
+  .modal-content {
+    top: 10vh;
+  }
+}
