@@ -10985,7 +10985,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   background-size: cover;
 }
 
-@media (max-width:960px) {
+@media (max-width:1050px) {
   .mobile {
     display: block;
   }
@@ -10997,7 +10997,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 1050px) {
   .mobile {
     display: none;
   }
@@ -11006,12 +11006,23 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 
-@media (max-width:767.98px) {
+@media (max-width:1050px) {
   #services {
-    height: 1800px;
+    height: 800px;
   }
 }
 
+@media (max-width:767.98px) {
+  #services {
+    height: 1000px;
+  }
+}
+
+@media (max-width:576px) {
+  #services {
+    height: 2000px;
+  }
+}
 
 
 @media(min-width: 1550px) {
@@ -11055,6 +11066,10 @@ section#contact form#contactForm :-ms-input-placeholder {
   .modal-content {
     top: 5vh;
   }
+}
+.modal-content .row {
+  max-height: 65vh;
+  overflow: auto;
 }
 
 @media(min-width: 1600px) {
