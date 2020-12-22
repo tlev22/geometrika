@@ -10348,7 +10348,7 @@ section#portfolio {
 }
 
 .portfolio-modal .modal-dialog {
-  margin: 0.2rem;
+  margin: 0rem;
   max-width: 90vw;
   top: 1rem;
 }
@@ -10385,7 +10385,7 @@ section#portfolio {
   background-color: transparent;
 }
 .portfolio-modal .close-modal:hover {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 
 .timeline {
