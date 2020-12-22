@@ -11071,7 +11071,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   }
 }
 .modal-content .row {
-  max-height: 73vh;
+  max-height: 65vh;
   overflow: auto;
 }
 
