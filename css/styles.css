@@ -5520,7 +5520,8 @@ a.close.disabled {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 93%;
+  width: 100%;
+  margin: auto;
   pointer-events: auto;
   background-color: #fff;
   background-clip: padding-box;
@@ -10376,8 +10377,8 @@ section#portfolio {
   position: absolute;
   top: 1.5rem;
   right: 1.5rem;
-  width: 3rem;
-  height: 3rem;
+  width: 1.5rem;
+  height: 1.5rem;
   cursor: pointer;
   background-color: transparent;
 }
@@ -11051,8 +11052,8 @@ section#contact form#contactForm :-ms-input-placeholder {
     width: 400px;
   }
   #follower {
-    width: 6rem;
-    height: 4rem;
+    width: 5rem;
+    height: 3rem;
   }
   .over-img-box {
     top: 25%;
